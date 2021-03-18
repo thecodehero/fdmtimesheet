@@ -1,0 +1,57 @@
+*, #Link2, .navbar {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+}
+
+#Link2:hover {
+    text-decoration: none;
+}
+
+.navbar {
+    position: fixed;
+    width: 250px;
+    height: 100%;
+    background: rgb(20,29,29);
+    display: block;
+    float: left;
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.navbar figure {
+    background: #005C46; 
+    border-bottom: solid white;
+    height: auto;
+    margin-bottom: 0px;
+}
+.navbar img {
+    display: block;
+    margin-bottom: 10px;
+    width: 165px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.navbar ul a {
+    display: block;
+    height: 100%;
+    width: 100%;
+    line-height: 65px;
+    font-size: 17px;
+    color: white;
+    padding-left: 30px;
+    border-bottom: 1px solid rgba(255, 255, 255, .1);
+    transition: .4s;
+}
+
+.navbar ul a i {
+    margin-right: 10px;
+}
+
+.navbar ul li:hover a {
+    padding-left: 50px;
+    background-color: rgba(255, 255, 255, .1);
+    color: #34AC90;
+    text-decoration: none;
+}
+
