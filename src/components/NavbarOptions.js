@@ -1,25 +1,19 @@
 export const NavbarOptions = [
     {
         title: "Dashboard",
-        url: "/dashboard",
+        url: "/",
         cName: "nav-links",
         icon: "fas fa-columns"
     },
     {
-        title: "Job Opportunities",
-        url: "#",
-        cName: "nav-links",
-        icon: "fas fa-list"
-    },
-    {
         title: "Timesheets",
-        url: "#",
+        url: "/timesheet",
         cName: "nav-links",
         icon: "far fa-calendar-alt"
     },
     {
         title: "Personal details",
-        url: "#",
+        url: "/personal_details",
         cName: "nav-links",
         icon: "far fa-user-circle"
     },
